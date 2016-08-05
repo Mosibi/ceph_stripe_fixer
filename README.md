@@ -29,7 +29,7 @@ rados --striper -p testpool -n client.admin rm file100mb.dd
 error removing testpool>file100mb.dd: (16) Device or resource busy
 ```
 
-And this is where ceph_stripe_fixer.py is a handy tool :)
+And this is why ceph_stripe_fixer.py is a handy tool :)
 
 ```
 rados --striper -p testpool -n client.admin stat file100mb.dd 
